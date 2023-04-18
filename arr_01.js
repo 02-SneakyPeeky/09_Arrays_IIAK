@@ -12,7 +12,7 @@
 // arr.push("Max");
 // output(arr);
 
-// // pop() --> Daten raus ... (-)
+// pop() --> Daten raus ... (-)
 // output(arr.pop());
 // output(arr);
 // output(arr.pop());
@@ -54,6 +54,7 @@ function getHTML() {
 
     for (let i = 0; i < TAGS.length; i++) {
         if (isOpenElement(TAGS[i])) 
+        // if(true)
         {
             htmlStr += getElement(TAGS[i],"open");
         } else {
